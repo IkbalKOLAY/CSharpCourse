@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\bin\Debug\ReferenceAndValueType.exe.config
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\bin\Debug\ReferenceAndValueType.exe
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\bin\Debug\ReferenceAndValueType.pdb
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\obj\Debug\ReferenceAndValueType.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\obj\Debug\ReferenceAndValueType.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\obj\Debug\ReferenceAndValueType.exe
+C:\Users\ASUS\source\repos\ReferenceAndValueType\ReferenceAndValueType\obj\Debug\ReferenceAndValueType.pdb

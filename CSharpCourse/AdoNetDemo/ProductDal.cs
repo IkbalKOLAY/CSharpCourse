@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdoNetDemo
+{
+    public class ProductDal
+    {
+        SqlConnection _connection = new SqlConnection(@"server=(localdb)\mssqllocaldb;initial catalog=ETrade;integrated security=true");
+        public List<Product> GetAll()
+        {
+            ConnectinControl();
+
+            SqlCommand command = new SqlCommand("Select *From Products", _connection);
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            List<Product> products = new List<Product>();
+
+            while (reader.Read())
+            {
+                Product product = new Product
+                {
+                    Id = Convert.ToInt32(reader["Id"]),
+                    Name = reader["Name"].ToString(),
+                    StockAmount = Convert.ToInt32(reader["StockAmount"]),
+                    UnitPrice = Convert.ToDecimal(reader["UnitPrice"])
+                };
+                products.Add(product);
+            }
+
+
+            reader.Close();
+            _connection.Close();
+
+            return products;
+
+        }
+
+
+
+        public DataTable GetAll2()
+        {
+            ConnectinControl();
+
+            SqlCommand command = new SqlCommand("Select *From Products", _connection);
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(reader);
+
+            reader.Close();
+            _connection.Close();
+
+            return dataTable;
+
+        }
+
+        private void ConnectinControl()
+        {
+            if (_connection.State == ConnectionState.Closed)
+            {
+                _connection.Open();
+            }
+        }
+
+        public void Add(Product product)
+        {
+            ConnectinControl();
+            SqlCommand command = new SqlCommand("Insert into products values(@name,@unitPrice,@stockAmount)",_connection);
+            // parametre varsa bu yapılır
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@unitPrice", product.UnitPrice);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+            command.ExecuteNonQuery();
+           
+            _connection.Close();
+        }
+
+        public void Update(Product product)
+        {
+            ConnectinControl();
+            SqlCommand command = new SqlCommand("Update  products set Name=@name, UnitPrice=@unitPrice, StockAmount=@stockAmount where Id=@ıd", _connection);
+            // parametre varsa bu yapılır
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@unitPrice", product.UnitPrice);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+            command.Parameters.AddWithValue("@ıd", product.Id);
+            command.ExecuteNonQuery();
+
+            _connection.Close();
+        }
+        public void Delete(int ıd)
+        {
+            ConnectinControl();
+            SqlCommand command = new SqlCommand("Delete  from products  where Id=@ıd", _connection);
+
+            command.Parameters.AddWithValue("@ıd", ıd);
+            command.ExecuteNonQuery();
+
+            _connection.Close();
+        }
+    }
+}

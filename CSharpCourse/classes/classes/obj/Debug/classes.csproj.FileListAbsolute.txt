@@ -1,0 +1,6 @@
+C:\Users\ASUS\source\repos\classes\classes\bin\Debug\classes.exe.config
+C:\Users\ASUS\source\repos\classes\classes\bin\Debug\classes.exe
+C:\Users\ASUS\source\repos\classes\classes\bin\Debug\classes.pdb
+C:\Users\ASUS\source\repos\classes\classes\obj\Debug\classes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\classes\classes\obj\Debug\classes.exe
+C:\Users\ASUS\source\repos\classes\classes\obj\Debug\classes.pdb

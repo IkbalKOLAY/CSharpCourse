@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\bin\Debug\VirtualMethod.exe.config
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\bin\Debug\VirtualMethod.exe
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\bin\Debug\VirtualMethod.pdb
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\obj\Debug\VirtualMethod.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\obj\Debug\VirtualMethod.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\obj\Debug\VirtualMethod.exe
+C:\Users\ASUS\source\repos\VirtualMethod\VirtualMethod\obj\Debug\VirtualMethod.pdb

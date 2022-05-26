@@ -1,0 +1,6 @@
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\bin\Debug\RecapDemo2.exe.config
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\bin\Debug\RecapDemo2.exe
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\bin\Debug\RecapDemo2.pdb
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\obj\Debug\RecapDemo2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\obj\Debug\RecapDemo2.exe
+C:\Users\ASUS\source\repos\RecapDemo2\RecapDemo2\obj\Debug\RecapDemo2.pdb

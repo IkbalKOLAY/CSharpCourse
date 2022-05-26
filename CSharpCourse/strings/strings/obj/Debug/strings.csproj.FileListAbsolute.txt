@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\strings\strings\bin\Debug\strings.exe.config
+C:\Users\ASUS\source\repos\strings\strings\bin\Debug\strings.exe
+C:\Users\ASUS\source\repos\strings\strings\bin\Debug\strings.pdb
+C:\Users\ASUS\source\repos\strings\strings\obj\Debug\strings.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\strings\strings\obj\Debug\strings.exe
+C:\Users\ASUS\source\repos\strings\strings\obj\Debug\strings.pdb
+C:\Users\ASUS\source\repos\strings\strings\obj\Debug\strings.csproj.AssemblyReference.cache
